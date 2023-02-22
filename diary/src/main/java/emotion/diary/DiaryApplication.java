@@ -1,16 +1,13 @@
-package com.example.Athome;
-//192.168.45.218 ip
+package emotion.diary;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 
 @SpringBootApplication
-public class AthomeApplication {
+public class DiaryApplication {
 
 	public static void main(String[] args) {
-		SpringApplication.run(AthomeApplication.class, args);
+		SpringApplication.run(DiaryApplication.class, args);
 	}
- //감정일기
-
 
 }
